@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Photo Gallery</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#grid">Grid Gallery</a></li>
+        <li><a href="#slide">Sliding Gallery</a></li>
+         
+      </ul>
+    </div>
+
+</nav>
+<div class="container">
+ <center>
+    <section id="grid">
+       
+            <h1>GRID GALLERY</h1>
+        <img src="1_HJldauxSe9VbVd1kpSVIeg.jpeg" height=200 width=200>
+         <img src="38f2362bb09a42b187a39403d18f537b.webp" height=200 width=200>
+         <img src="71oim9SeddL._SL1500_.jpg"  height=200 width=200>
+         <img src="apps.46066.14266266405632473.685bbcd3-4a3b-4881-9c96-1d17e9a64d6b.jpg" height=200 width=200><br>
+         <img src="download%20(1).jpg" height=200 width=200>
+         <img src="download.jpg" height=200 width=200>
+         <img src="gettyimages-518361844-1551386275.jpg" height=200 width=200>
+        <img src="2014-barbie-face.jpg" height=200 width=200>
+    </section>
+     </center>
+    </div>
+    <div class="container">
+         
+<div id="myCarousel" class="carousel slide" >
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <center>
+        <a href="#" target="_blank">
+          <img src="download%20(3).jpg" class="img-responsive">
+        </a>
+           
+        </center>
+      </div>
+
+      <div class="item">
+        <center>
+        <a href="#" target="_blank">
+          <img src="e4436e9474484cafc97c168c4e0fd90e.jpg" class="img-responsive">
+        </a>
+           
+        </center>
+      </div>
+        <div class="item">
+        <center>
+        <a href="#" target="_blank">
+          <img src="istockphoto-923852236-612x612.jpg" class="img-responsive">
+        </a>
+           
+        </center>
+      </div>
+        <div class="item">
+        <center>
+        <a href="#" target="_blank">
+          <img src="71-Tj6G5VtL._SL1500_.jpg" class="img-responsive">
+        </a>
+           
+        </center>
+      </div>
+    
+    </div>
+    <ol class="caurosel-indicators">
+    <li data-target="#mycaurosel" dat-slide-to="0" class ="active"></li>
+         <li data-target="#mycaurosel" dat-slide-to="1"></li>
+    </ol>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+
+</div>
+        
+
+     
+
+
+</body>
+</html>
